@@ -5,5 +5,6 @@ Testing Ecommerce Website using Selenium and TestNG with Java
 http://live.techpanda.org/
 
 ## Day1
-The following test case needs to be automated 
-!(Task1)[]
+The following test case needs to be automated
+
+![Task1](./Tasks/Testcase-v1.png)
