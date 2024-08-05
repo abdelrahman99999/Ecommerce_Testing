@@ -11,31 +11,31 @@
       <![CDATA[click on Mobile Menu]]>
     </line>
     <line>
-      <![CDATA[Compare Titles]]>
+      <![CDATA[Get cost of sony Xperia mobile from the list of all mobiles]]>
     </line>
     <line>
-      <![CDATA[select type of Sort by Name]]>
+      <![CDATA[Click on mobile Xperia mobile]]>
     </line>
     <line>
-      <![CDATA[Taking Screenshot]]>
+      <![CDATA[Get cost of sony Xperia mobile from detail page]]>
     </line>
     <line>
-      <![CDATA[<img src='screenshots\20240804_231810.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+      <![CDATA[Compare the 2 cost values]]>
     </line>
     <line>
-      <![CDATA[check if the items are sorted by name or not]]>
+      <![CDATA[Equal values]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-04T23:18:02 GMT+02:00" name="Sorting Suite" finished-at="2024-08-04T23:18:12 GMT+02:00" duration-ms="9621">
+  <suite started-at="2024-08-06T01:53:56 GMT+02:00" name="Sorting Suite" finished-at="2024-08-06T01:54:08 GMT+02:00" duration-ms="11553">
     <groups>
     </groups>
-    <test started-at="2024-08-04T23:18:02 GMT+02:00" name="Test scenarios" finished-at="2024-08-04T23:18:12 GMT+02:00" duration-ms="9621">
-      <class name="Day1">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day1@4313f5bc]" started-at="2024-08-04T23:18:02 GMT+02:00" name="Setup" finished-at="2024-08-04T23:18:03 GMT+02:00" duration-ms="1404" status="PASS">
+    <test started-at="2024-08-06T01:53:56 GMT+02:00" name="Test scenarios" finished-at="2024-08-06T01:54:08 GMT+02:00" duration-ms="11553">
+      <class name="Day2">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day2@6e0dec4a]" started-at="2024-08-06T01:53:56 GMT+02:00" name="Setup" finished-at="2024-08-06T01:53:59 GMT+02:00" duration-ms="2560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_sorting()[pri:0, instance:Day1@4313f5bc]" started-at="2024-08-04T23:18:03 GMT+02:00" name="Verify_sorting" finished-at="2024-08-04T23:18:10 GMT+02:00" duration-ms="6935" status="PASS">
+        <test-method signature="Verify_sorting()[pri:0, instance:Day2@6e0dec4a]" started-at="2024-08-06T01:53:59 GMT+02:00" name="Verify_sorting" finished-at="2024-08-06T01:54:07 GMT+02:00" duration-ms="7668" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -47,27 +47,27 @@
               <![CDATA[click on Mobile Menu]]>
             </line>
             <line>
-              <![CDATA[Compare Titles]]>
+              <![CDATA[Get cost of sony Xperia mobile from the list of all mobiles]]>
             </line>
             <line>
-              <![CDATA[select type of Sort by Name]]>
+              <![CDATA[Click on mobile Xperia mobile]]>
             </line>
             <line>
-              <![CDATA[Taking Screenshot]]>
+              <![CDATA[Get cost of sony Xperia mobile from detail page]]>
             </line>
             <line>
-              <![CDATA[<img src='screenshots\20240804_231810.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+              <![CDATA[Compare the 2 cost values]]>
             </line>
             <line>
-              <![CDATA[check if the items are sorted by name or not]]>
+              <![CDATA[Equal values]]>
             </line>
           </reporter-output>
         </test-method> <!-- Verify_sorting -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day1@4313f5bc]" started-at="2024-08-04T23:18:10 GMT+02:00" name="Finish" finished-at="2024-08-04T23:18:12 GMT+02:00" duration-ms="1242" status="PASS">
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day2@6e0dec4a]" started-at="2024-08-06T01:54:07 GMT+02:00" name="Finish" finished-at="2024-08-06T01:54:08 GMT+02:00" duration-ms="1280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
-      </class> <!-- Day1 -->
+      </class> <!-- Day2 -->
     </test> <!-- Test scenarios -->
   </suite> <!-- Sorting Suite -->
 </testng-results>

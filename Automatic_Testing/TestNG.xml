@@ -3,7 +3,8 @@
 <suite name="Sorting Suite">
     <test name="Test scenarios">
         <classes>
-            <class name="Day1"/>
+<!--            <class name="Day1"/>-->
+            <class name="Day2"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
