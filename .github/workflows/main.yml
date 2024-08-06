@@ -19,6 +19,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
       
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '19'
+          
       # No need to install Maven as they already installed on the machine
       
       - name: Run TestNG using maven
