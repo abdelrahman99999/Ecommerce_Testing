@@ -1,6 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.Select;
@@ -23,8 +24,8 @@ public class Day1 {
 
     @BeforeTest
     void Setup(){
-        WebDriverManager.edgedriver().setup();
-        driver = new EdgeDriver();
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
         // Implicit wait timeout for 20seconds
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
