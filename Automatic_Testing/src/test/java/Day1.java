@@ -2,6 +2,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.Select;
@@ -24,8 +25,17 @@ public class Day1 {
 
     @BeforeTest
     void Setup(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+       // WebDriverManager.chromedriver().setup();
+        // Define ChromeDriver options
+        ChromeOptions options=new ChromeOptions();
+
+        // Define argument
+        options.addArguments("headless");
+        options.addArguments("no-sandbox");
+
+        // Define and initiate the chrome driver
+         driver = new ChromeDriver(options);
+
         // Implicit wait timeout for 20seconds
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
