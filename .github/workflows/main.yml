@@ -19,9 +19,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
       
-      - uses: actions/setup-java@v4
+      - name: Set up JDK 19
+        uses: actions/setup-java@v4
         with:
           java-version: '19'
+          distribution: 'temurin'
+          cache: maven
           
       # No need to install Maven as they already installed on the machine
       
@@ -31,7 +34,8 @@ jobs:
               pwd
               mvn clean test --file pom.xml -Dsurefire.suiteXmlFiles=TestNG.xml
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload Reports
+        uses: actions/upload-artifact@v4
         with:
-          name: TestNg Reports
-          path: ./test-output
+              name: TestNg Reports
+              path: ./test-output
