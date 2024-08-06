@@ -25,8 +25,7 @@ jobs:
         run: |
               cd ./Automatic_Testing/
               pwd
-              mvn clean install
-              mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml
+              mvn clean test --file pom.xml -Dsurefire.suiteXmlFiles=TestNG.xml
 
       - uses: actions/upload-artifact@v4
         with:
