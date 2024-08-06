@@ -32,10 +32,10 @@ jobs:
         run: |
               cd ./Automatic_Testing/
               pwd
-              mvn clean test --file pom.xml -Dsurefire.suiteXmlFiles=TestNG.xml
+              mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml
 
       - name: Upload Reports
         uses: actions/upload-artifact@v4
         with:
               name: TestNg Reports
-              path: ./test-output
+              path: ./Automatic_Testing/test-output/
