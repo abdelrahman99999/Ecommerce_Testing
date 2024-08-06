@@ -23,8 +23,8 @@ jobs:
       
       - name: Run TestNG using maven
         run: |
-              mvn clean install
               cd Automatic_Testing
+              mvn clean install
               mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml
 
       - uses: actions/upload-artifact@v4
