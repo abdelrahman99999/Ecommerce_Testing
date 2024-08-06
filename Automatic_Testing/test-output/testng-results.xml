@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Open Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Compare Titles]]>
+    </line>
+    <line>
+      <![CDATA[click on Mobile Menu]]>
+    </line>
+    <line>
+      <![CDATA[Compare Titles]]>
+    </line>
+    <line>
+      <![CDATA[select type of Sort by Name]]>
+    </line>
+    <line>
+      <![CDATA[Taking Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<img src='screenshots\20240806_134628.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+    </line>
+    <line>
+      <![CDATA[check if the items are sorted by name or not]]>
+    </line>
     <line>
       <![CDATA[Open Base URL]]>
     </line>
@@ -26,16 +50,54 @@
       <![CDATA[Equal values]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-06T01:53:56 GMT+02:00" name="Sorting Suite" finished-at="2024-08-06T01:54:08 GMT+02:00" duration-ms="11553">
+  <suite started-at="2024-08-06T13:46:15 GMT+02:00" name="Sorting Suite" finished-at="2024-08-06T13:46:38 GMT+02:00" duration-ms="23186">
     <groups>
     </groups>
-    <test started-at="2024-08-06T01:53:56 GMT+02:00" name="Test scenarios" finished-at="2024-08-06T01:54:08 GMT+02:00" duration-ms="11553">
-      <class name="Day2">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day2@6e0dec4a]" started-at="2024-08-06T01:53:56 GMT+02:00" name="Setup" finished-at="2024-08-06T01:53:59 GMT+02:00" duration-ms="2560" status="PASS">
+    <test started-at="2024-08-06T13:46:15 GMT+02:00" name="Test scenarios" finished-at="2024-08-06T13:46:38 GMT+02:00" duration-ms="23186">
+      <class name="Day1">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day1@433d61fb]" started-at="2024-08-06T13:46:15 GMT+02:00" name="Setup" finished-at="2024-08-06T13:46:18 GMT+02:00" duration-ms="3142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_sorting()[pri:0, instance:Day2@6e0dec4a]" started-at="2024-08-06T01:53:59 GMT+02:00" name="Verify_sorting" finished-at="2024-08-06T01:54:07 GMT+02:00" duration-ms="7668" status="PASS">
+        <test-method signature="Verify_sorting()[pri:0, instance:Day1@433d61fb]" started-at="2024-08-06T13:46:21 GMT+02:00" name="Verify_sorting" finished-at="2024-08-06T13:46:28 GMT+02:00" duration-ms="7109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Base URL]]>
+            </line>
+            <line>
+              <![CDATA[Compare Titles]]>
+            </line>
+            <line>
+              <![CDATA[click on Mobile Menu]]>
+            </line>
+            <line>
+              <![CDATA[Compare Titles]]>
+            </line>
+            <line>
+              <![CDATA[select type of Sort by Name]]>
+            </line>
+            <line>
+              <![CDATA[Taking Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<img src='screenshots\20240806_134628.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+            </line>
+            <line>
+              <![CDATA[check if the items are sorted by name or not]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_sorting -->
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day1@433d61fb]" started-at="2024-08-06T13:46:36 GMT+02:00" name="Finish" finished-at="2024-08-06T13:46:37 GMT+02:00" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Finish -->
+      </class> <!-- Day1 -->
+      <class name="Day2">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day2@78e117e3]" started-at="2024-08-06T13:46:18 GMT+02:00" name="Setup" finished-at="2024-08-06T13:46:21 GMT+02:00" duration-ms="2581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_scenario()[pri:0, instance:Day2@78e117e3]" started-at="2024-08-06T13:46:28 GMT+02:00" name="Verify_scenario" finished-at="2024-08-06T13:46:36 GMT+02:00" duration-ms="7587" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -62,8 +124,8 @@
               <![CDATA[Equal values]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_sorting -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day2@6e0dec4a]" started-at="2024-08-06T01:54:07 GMT+02:00" name="Finish" finished-at="2024-08-06T01:54:08 GMT+02:00" duration-ms="1280" status="PASS">
+        </test-method> <!-- Verify_scenario -->
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day2@78e117e3]" started-at="2024-08-06T13:46:37 GMT+02:00" name="Finish" finished-at="2024-08-06T13:46:38 GMT+02:00" duration-ms="1345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->

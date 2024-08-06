@@ -1,20 +1,11 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 
-import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
 
 
 public class Day2 {
@@ -32,7 +23,7 @@ public class Day2 {
     }
 
     @Test
-    void Verify_sorting() throws Exception {
+    void Verify_scenario() throws Exception {
         Reporter.log("Open Base URL");
         driver.get(UTIL.Base_URL);
 
@@ -56,12 +47,14 @@ public class Day2 {
         Reporter.log("Compare the 2 cost values");
         if(price_1.equals(price_2)){
             Reporter.log("Equal values");
+
         }else{
             Reporter.log("Not Equal values");
             Assert.fail();
         }
 
     }
+    
 
     @AfterTest
     void Finish(){

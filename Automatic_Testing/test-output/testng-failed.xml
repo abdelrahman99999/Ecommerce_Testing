@@ -3,13 +3,13 @@
 <suite name="Failed suite [Sorting Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test scenarios(failed)">
     <classes>
-      <class name="Day1">
+      <class name="Day2">
         <methods>
-          <include name="Verify_sorting"/>
-          <include name="Setup"/>
           <include name="Finish"/>
+          <include name="Setup"/>
+          <include name="Verify_sorting"/>
         </methods>
-      </class> <!-- Day1 -->
+      </class> <!-- Day2 -->
     </classes>
   </test> <!-- Test scenarios(failed) -->
 </suite> <!-- Failed suite [Sorting Suite] -->
