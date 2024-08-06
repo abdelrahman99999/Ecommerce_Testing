@@ -23,7 +23,8 @@ jobs:
       
       - name: Run TestNG using maven
         run: |
-              cd Automatic_Testing
+              cd ./Automatic_Testing/
+              pwd
               mvn clean install
               mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml
 
