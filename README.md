@@ -2,9 +2,9 @@
 	<img src="https://github.com/abdelrahman99999/Ecommerce_Testing/actions/workflows/main.yml/badge.svg">
 </div>
 
-# Ecommerce_Testing
-Testing Ecommerce Website using Selenium and TestNG with Java
-
+# Ecommerce website Testing Project
+- Testing Ecommerce Website using Selenium and TestNG with Java
+- Github Actions
 ### AUT
 http://live.techpanda.org/
 
@@ -27,3 +27,7 @@ The following test case needs to be automated
 The following test case needs to be automated
 
 ![Task2](./Tasks/Testcase-v4.png)
+
+
+## Sample Result for Every CI Run
+![Treports](./Tasks/result_sample.png)
