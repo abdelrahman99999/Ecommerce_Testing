@@ -36,7 +36,8 @@ jobs:
         run: |
               cd ./Automatic_Testing/
               pwd
-              mvn clean test
+              ls
+              mvn clean test -DsuiteXmlFile=/home/runner/work/Ecommerce_Testing/Automatic_Testing/TestNg.xml
 
       - name: Upload Reports
         uses: actions/upload-artifact@v4
