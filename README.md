@@ -1,3 +1,7 @@
+<div align="center"> 
+	<img src="https://github.com/abdelrahman99999/Ecommerce_Testing/actions/workflows/main.yml/badge.svg">
+</div>
+
 # Ecommerce_Testing
 Testing Ecommerce Website using Selenium and TestNG with Java
 
