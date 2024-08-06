@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Open Base URL]]>
@@ -20,16 +20,13 @@
       <![CDATA[Taking Screenshot]]>
     </line>
     <line>
-      <![CDATA[<img src='screenshots\20240806_134628.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+      <![CDATA[<img src='screenshots\20240806_150242.png' alt='screenshot' style="width:500px;height:500px;" />]]>
     </line>
     <line>
       <![CDATA[check if the items are sorted by name or not]]>
     </line>
     <line>
       <![CDATA[Open Base URL]]>
-    </line>
-    <line>
-      <![CDATA[Compare Titles]]>
     </line>
     <line>
       <![CDATA[click on Mobile Menu]]>
@@ -49,17 +46,47 @@
     <line>
       <![CDATA[Equal values]]>
     </line>
+    <line>
+      <![CDATA[Open Base URL]]>
+    </line>
+    <line>
+      <![CDATA[click on Mobile Menu]]>
+    </line>
+    <line>
+      <![CDATA[Click Add to Cart for sony Xperia mobile]]>
+    </line>
+    <line>
+      <![CDATA[Edit quantity for the item to be 1000]]>
+    </line>
+    <line>
+      <![CDATA[click update button]]>
+    </line>
+    <line>
+      <![CDATA[Check error message]]>
+    </line>
+    <line>
+      <![CDATA[error message shown with correct message]]>
+    </line>
+    <line>
+      <![CDATA[Empty Cart]]>
+    </line>
+    <line>
+      <![CDATA[check empty cart message]]>
+    </line>
+    <line>
+      <![CDATA[message shown with correct message]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-08-06T13:46:15 GMT+02:00" name="Sorting Suite" finished-at="2024-08-06T13:46:38 GMT+02:00" duration-ms="23186">
+  <suite started-at="2024-08-06T15:02:28 GMT+02:00" name="Test Suite" finished-at="2024-08-06T15:03:07 GMT+02:00" duration-ms="39143">
     <groups>
     </groups>
-    <test started-at="2024-08-06T13:46:15 GMT+02:00" name="Test scenarios" finished-at="2024-08-06T13:46:38 GMT+02:00" duration-ms="23186">
+    <test started-at="2024-08-06T15:02:28 GMT+02:00" name="Test scenarios" finished-at="2024-08-06T15:03:07 GMT+02:00" duration-ms="39143">
       <class name="Day1">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day1@433d61fb]" started-at="2024-08-06T13:46:15 GMT+02:00" name="Setup" finished-at="2024-08-06T13:46:18 GMT+02:00" duration-ms="3142" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day1@9353778]" started-at="2024-08-06T15:02:28 GMT+02:00" name="Setup" finished-at="2024-08-06T15:02:30 GMT+02:00" duration-ms="1815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_sorting()[pri:0, instance:Day1@433d61fb]" started-at="2024-08-06T13:46:21 GMT+02:00" name="Verify_sorting" finished-at="2024-08-06T13:46:28 GMT+02:00" duration-ms="7109" status="PASS">
+        <test-method signature="Verify_sorting()[pri:0, instance:Day1@9353778]" started-at="2024-08-06T15:02:35 GMT+02:00" name="Verify_sorting" finished-at="2024-08-06T15:02:42 GMT+02:00" duration-ms="6276" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -80,30 +107,27 @@
               <![CDATA[Taking Screenshot]]>
             </line>
             <line>
-              <![CDATA[<img src='screenshots\20240806_134628.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+              <![CDATA[<img src='screenshots\20240806_150242.png' alt='screenshot' style="width:500px;height:500px;" />]]>
             </line>
             <line>
               <![CDATA[check if the items are sorted by name or not]]>
             </line>
           </reporter-output>
         </test-method> <!-- Verify_sorting -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day1@433d61fb]" started-at="2024-08-06T13:46:36 GMT+02:00" name="Finish" finished-at="2024-08-06T13:46:37 GMT+02:00" duration-ms="1367" status="PASS">
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day1@9353778]" started-at="2024-08-06T15:03:03 GMT+02:00" name="Finish" finished-at="2024-08-06T15:03:04 GMT+02:00" duration-ms="1565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
       </class> <!-- Day1 -->
       <class name="Day2">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day2@78e117e3]" started-at="2024-08-06T13:46:18 GMT+02:00" name="Setup" finished-at="2024-08-06T13:46:21 GMT+02:00" duration-ms="2581" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day2@30ee2816]" started-at="2024-08-06T15:02:30 GMT+02:00" name="Setup" finished-at="2024-08-06T15:02:33 GMT+02:00" duration-ms="2788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_scenario()[pri:0, instance:Day2@78e117e3]" started-at="2024-08-06T13:46:28 GMT+02:00" name="Verify_scenario" finished-at="2024-08-06T13:46:36 GMT+02:00" duration-ms="7587" status="PASS">
+        <test-method signature="Verify_scenario2()[pri:0, instance:Day2@30ee2816]" started-at="2024-08-06T15:02:42 GMT+02:00" name="Verify_scenario2" finished-at="2024-08-06T15:02:51 GMT+02:00" duration-ms="9457" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
-            </line>
-            <line>
-              <![CDATA[Compare Titles]]>
             </line>
             <line>
               <![CDATA[click on Mobile Menu]]>
@@ -124,12 +148,56 @@
               <![CDATA[Equal values]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_scenario -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day2@78e117e3]" started-at="2024-08-06T13:46:37 GMT+02:00" name="Finish" finished-at="2024-08-06T13:46:38 GMT+02:00" duration-ms="1345" status="PASS">
+        </test-method> <!-- Verify_scenario2 -->
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day2@30ee2816]" started-at="2024-08-06T15:03:04 GMT+02:00" name="Finish" finished-at="2024-08-06T15:03:06 GMT+02:00" duration-ms="1405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
       </class> <!-- Day2 -->
+      <class name="Day3">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day3@31d7b7bf]" started-at="2024-08-06T15:02:33 GMT+02:00" name="Setup" finished-at="2024-08-06T15:02:35 GMT+02:00" duration-ms="2622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_scenario3()[pri:0, instance:Day3@31d7b7bf]" started-at="2024-08-06T15:02:51 GMT+02:00" name="Verify_scenario3" finished-at="2024-08-06T15:03:03 GMT+02:00" duration-ms="11810" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Base URL]]>
+            </line>
+            <line>
+              <![CDATA[click on Mobile Menu]]>
+            </line>
+            <line>
+              <![CDATA[Click Add to Cart for sony Xperia mobile]]>
+            </line>
+            <line>
+              <![CDATA[Edit quantity for the item to be 1000]]>
+            </line>
+            <line>
+              <![CDATA[click update button]]>
+            </line>
+            <line>
+              <![CDATA[Check error message]]>
+            </line>
+            <line>
+              <![CDATA[error message shown with correct message]]>
+            </line>
+            <line>
+              <![CDATA[Empty Cart]]>
+            </line>
+            <line>
+              <![CDATA[check empty cart message]]>
+            </line>
+            <line>
+              <![CDATA[message shown with correct message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_scenario3 -->
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day3@31d7b7bf]" started-at="2024-08-06T15:03:06 GMT+02:00" name="Finish" finished-at="2024-08-06T15:03:07 GMT+02:00" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Finish -->
+      </class> <!-- Day3 -->
     </test> <!-- Test scenarios -->
-  </suite> <!-- Sorting Suite -->
+  </suite> <!-- Test Suite -->
 </testng-results>

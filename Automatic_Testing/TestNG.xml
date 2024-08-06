@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Sorting Suite">
+<suite name="Test Suite">
     <test name="Test scenarios">
         <classes>
             <class name="Day1"/>
             <class name="Day2"/>
+            <class name="Day3"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

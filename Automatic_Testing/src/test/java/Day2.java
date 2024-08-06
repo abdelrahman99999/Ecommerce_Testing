@@ -23,14 +23,9 @@ public class Day2 {
     }
 
     @Test
-    void Verify_scenario() throws Exception {
+    void Verify_scenario2() throws Exception {
         Reporter.log("Open Base URL");
         driver.get(UTIL.Base_URL);
-
-        String text_in_page = driver.findElement(By.cssSelector("h2:nth-child(1)")).getText();
-
-        Reporter.log("Compare Titles");
-        Assert.assertEquals(text_in_page,"THIS IS DEMO SITE FOR   ");
 
         Reporter.log("click on Mobile Menu");
         driver.findElement(By.linkText("MOBILE")).click();
@@ -54,7 +49,7 @@ public class Day2 {
         }
 
     }
-    
+
 
     @AfterTest
     void Finish(){

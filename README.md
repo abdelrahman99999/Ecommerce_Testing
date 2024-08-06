@@ -17,3 +17,8 @@ The following test case needs to be automated
 The following test case needs to be automated
 
 ![Task2](./Tasks/Testcase-v2.png)
+
+## Day3
+The following test case needs to be automated
+
+![Task2](./Tasks/Testcase-v3.png)
