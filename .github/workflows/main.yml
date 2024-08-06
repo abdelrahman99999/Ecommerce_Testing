@@ -22,7 +22,9 @@ jobs:
       # No need to install Maven as they already installed on the machine
       
       - name: Run TestNG using maven
-        run: mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml
+        run: |
+              cd Automatic_Testing
+              mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml
 
       - uses: actions/upload-artifact@v4
         with:
