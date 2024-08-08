@@ -12,7 +12,7 @@ public class UTIL {
     public static final String Base_URL="http://live.techpanda.org";
     public static final String First_Name="Abdelrahman";
     public static final String Last_Name="Tester";
-    public static final String email="purdei7gno@gufum.com";
+    public static final String email="pu0dei7gn9@gufum.com";
     public static final String Pass="123456";
 
 

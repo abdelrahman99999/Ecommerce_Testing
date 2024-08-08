@@ -20,7 +20,7 @@
       <![CDATA[Taking Screenshot]]>
     </line>
     <line>
-      <![CDATA[<img src='screenshots\20240808_195359.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+      <![CDATA[<img src='screenshots\20240808_200254.png' alt='screenshot' style="width:500px;height:500px;" />]]>
     </line>
     <line>
       <![CDATA[check if the items are sorted by name or not]]>
@@ -140,16 +140,16 @@
       <![CDATA[Check wishlist is shared. Expected wishlist shared successfully.]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-08T19:53:45 GMT+02:00" name="Test Suite" finished-at="2024-08-08T19:54:55 GMT+02:00" duration-ms="69823">
+  <suite started-at="2024-08-08T20:02:38 GMT+02:00" name="Test Suite" finished-at="2024-08-08T20:03:43 GMT+02:00" duration-ms="64533">
     <groups>
     </groups>
-    <test started-at="2024-08-08T19:53:45 GMT+02:00" name="Test scenarios" finished-at="2024-08-08T19:54:55 GMT+02:00" duration-ms="69823">
+    <test started-at="2024-08-08T20:02:38 GMT+02:00" name="Test scenarios" finished-at="2024-08-08T20:03:43 GMT+02:00" duration-ms="64533">
       <class name="Day1">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day1@1f3f4916]" started-at="2024-08-08T19:53:45 GMT+02:00" name="Setup" finished-at="2024-08-08T19:53:48 GMT+02:00" duration-ms="2157" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day1@2ea227af]" started-at="2024-08-08T20:02:38 GMT+02:00" name="Setup" finished-at="2024-08-08T20:02:40 GMT+02:00" duration-ms="2219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_sorting()[pri:0, instance:Day1@1f3f4916]" started-at="2024-08-08T19:53:53 GMT+02:00" name="Verify_sorting" finished-at="2024-08-08T19:53:59 GMT+02:00" duration-ms="6328" status="PASS">
+        <test-method signature="Verify_sorting()[pri:0, instance:Day1@2ea227af]" started-at="2024-08-08T20:02:46 GMT+02:00" name="Verify_sorting" finished-at="2024-08-08T20:02:54 GMT+02:00" duration-ms="8262" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -170,24 +170,24 @@
               <![CDATA[Taking Screenshot]]>
             </line>
             <line>
-              <![CDATA[<img src='screenshots\20240808_195359.png' alt='screenshot' style="width:500px;height:500px;" />]]>
+              <![CDATA[<img src='screenshots\20240808_200254.png' alt='screenshot' style="width:500px;height:500px;" />]]>
             </line>
             <line>
               <![CDATA[check if the items are sorted by name or not]]>
             </line>
           </reporter-output>
         </test-method> <!-- Verify_sorting -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day1@1f3f4916]" started-at="2024-08-08T19:54:50 GMT+02:00" name="Finish" finished-at="2024-08-08T19:54:51 GMT+02:00" duration-ms="1026" status="PASS">
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day1@2ea227af]" started-at="2024-08-08T20:03:37 GMT+02:00" name="Finish" finished-at="2024-08-08T20:03:38 GMT+02:00" duration-ms="1045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
       </class> <!-- Day1 -->
       <class name="Day2">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day2@3967e60c]" started-at="2024-08-08T19:53:48 GMT+02:00" name="Setup" finished-at="2024-08-08T19:53:49 GMT+02:00" duration-ms="1309" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day2@7f552bd3]" started-at="2024-08-08T20:02:40 GMT+02:00" name="Setup" finished-at="2024-08-08T20:02:42 GMT+02:00" duration-ms="1352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_scenario2()[pri:0, instance:Day2@3967e60c]" started-at="2024-08-08T19:53:59 GMT+02:00" name="Verify_scenario2" finished-at="2024-08-08T19:54:07 GMT+02:00" duration-ms="8012" status="PASS">
+        <test-method signature="Verify_scenario2()[pri:0, instance:Day2@7f552bd3]" started-at="2024-08-08T20:02:54 GMT+02:00" name="Verify_scenario2" finished-at="2024-08-08T20:03:01 GMT+02:00" duration-ms="6836" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -212,17 +212,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- Verify_scenario2 -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day2@3967e60c]" started-at="2024-08-08T19:54:51 GMT+02:00" name="Finish" finished-at="2024-08-08T19:54:51 GMT+02:00" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day2@7f552bd3]" started-at="2024-08-08T20:03:38 GMT+02:00" name="Finish" finished-at="2024-08-08T20:03:38 GMT+02:00" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
       </class> <!-- Day2 -->
       <class name="Day3">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day3@60d8c9b7]" started-at="2024-08-08T19:53:49 GMT+02:00" name="Setup" finished-at="2024-08-08T19:53:50 GMT+02:00" duration-ms="1333" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day3@3c22fc4c]" started-at="2024-08-08T20:02:42 GMT+02:00" name="Setup" finished-at="2024-08-08T20:02:43 GMT+02:00" duration-ms="1336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_scenario3()[pri:0, instance:Day3@60d8c9b7]" started-at="2024-08-08T19:54:07 GMT+02:00" name="Verify_scenario3" finished-at="2024-08-08T19:54:21 GMT+02:00" duration-ms="13290" status="PASS">
+        <test-method signature="Verify_scenario3()[pri:0, instance:Day3@3c22fc4c]" started-at="2024-08-08T20:03:01 GMT+02:00" name="Verify_scenario3" finished-at="2024-08-08T20:03:09 GMT+02:00" duration-ms="8201" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -256,17 +256,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- Verify_scenario3 -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day3@60d8c9b7]" started-at="2024-08-08T19:54:51 GMT+02:00" name="Finish" finished-at="2024-08-08T19:54:53 GMT+02:00" duration-ms="1626" status="PASS">
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day3@3c22fc4c]" started-at="2024-08-08T20:03:38 GMT+02:00" name="Finish" finished-at="2024-08-08T20:03:39 GMT+02:00" duration-ms="1631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
       </class> <!-- Day3 -->
       <class name="Day4">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day4@48aaecc3]" started-at="2024-08-08T19:53:50 GMT+02:00" name="Setup" finished-at="2024-08-08T19:53:52 GMT+02:00" duration-ms="1363" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day4@460d0a57]" started-at="2024-08-08T20:02:43 GMT+02:00" name="Setup" finished-at="2024-08-08T20:02:44 GMT+02:00" duration-ms="1333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_scenario4()[pri:0, instance:Day4@48aaecc3]" started-at="2024-08-08T19:54:21 GMT+02:00" name="Verify_scenario4" finished-at="2024-08-08T19:54:31 GMT+02:00" duration-ms="10729" status="PASS">
+        <test-method signature="Verify_scenario4()[pri:0, instance:Day4@460d0a57]" started-at="2024-08-08T20:03:09 GMT+02:00" name="Verify_scenario4" finished-at="2024-08-08T20:03:17 GMT+02:00" duration-ms="8046" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -297,17 +297,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- Verify_scenario4 -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day4@48aaecc3]" started-at="2024-08-08T19:54:53 GMT+02:00" name="Finish" finished-at="2024-08-08T19:54:54 GMT+02:00" duration-ms="1607" status="PASS">
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day4@460d0a57]" started-at="2024-08-08T20:03:39 GMT+02:00" name="Finish" finished-at="2024-08-08T20:03:41 GMT+02:00" duration-ms="1628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
       </class> <!-- Day4 -->
       <class name="Day5">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Day5@7c0c77c7]" started-at="2024-08-08T19:53:52 GMT+02:00" name="Setup" finished-at="2024-08-08T19:53:53 GMT+02:00" duration-ms="1349" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day5@47d90b9e]" started-at="2024-08-08T20:02:44 GMT+02:00" name="Setup" finished-at="2024-08-08T20:02:46 GMT+02:00" duration-ms="1364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_scenario5()[pri:0, instance:Day5@7c0c77c7]" started-at="2024-08-08T19:54:31 GMT+02:00" name="Verify_scenario5" finished-at="2024-08-08T19:54:50 GMT+02:00" duration-ms="18874" status="PASS">
+        <test-method signature="Verify_scenario5()[pri:0, instance:Day5@47d90b9e]" started-at="2024-08-08T20:03:17 GMT+02:00" name="Verify_scenario5" finished-at="2024-08-08T20:03:37 GMT+02:00" duration-ms="19541" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Base URL]]>
@@ -347,7 +347,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Verify_scenario5 -->
-        <test-method is-config="true" signature="Finish()[pri:0, instance:Day5@7c0c77c7]" started-at="2024-08-08T19:54:54 GMT+02:00" name="Finish" finished-at="2024-08-08T19:54:55 GMT+02:00" duration-ms="739" status="PASS">
+        <test-method is-config="true" signature="Finish()[pri:0, instance:Day5@47d90b9e]" started-at="2024-08-08T20:03:41 GMT+02:00" name="Finish" finished-at="2024-08-08T20:03:43 GMT+02:00" duration-ms="1626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finish -->
