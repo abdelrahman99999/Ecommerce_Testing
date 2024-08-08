@@ -10,6 +10,11 @@ import java.util.Calendar;
 
 public class UTIL {
     public static final String Base_URL="http://live.techpanda.org";
+    public static final String First_Name="Abdelrahman";
+    public static final String Last_Name="Tester";
+    public static final String email="purdei7gno@gufum.com";
+    public static final String Pass="123456";
+
 
     public static void takeSnapShot(WebDriver webdriver) throws Exception{
         //Convert web driver object to TakeScreenshot

@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +114,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Test_Suite" title="Day4" class="method navigator-link" hash-for-method="Verify_scenario4">Verify_scenario4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="Day5" class="method navigator-link" hash-for-method="Verify_scenario5">Verify_scenario5</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -151,6 +156,21 @@
           <div class="suite-Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">Day5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_scenario5">
+                  </a> <!-- Verify_scenario5 -->
+                  <span class="method-name">Verify_scenario5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">Day3</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -166,21 +186,6 @@
           <div class="suite-Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Day1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_sorting">
-                  </a> <!-- Verify_sorting -->
-                  <span class="method-name">Verify_sorting</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Suite-class-passed -->
-          <div class="suite-Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">Day2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -189,6 +194,21 @@
                   <a name="Verify_scenario2">
                   </a> <!-- Verify_scenario2 -->
                   <span class="method-name">Verify_scenario2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Day1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_sorting">
+                  </a> <!-- Verify_sorting -->
+                  <span class="method-name">Verify_sorting</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,6 +229,7 @@
       &lt;class name=&quot;Day2&quot;/&gt;
       &lt;class name=&quot;Day3&quot;/&gt;
       &lt;class name=&quot;Day4&quot;/&gt;
+      &lt;class name=&quot;Day5&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test scenarios --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite --&gt;
@@ -222,7 +243,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test scenarios (4 classes)</span>
+                <span class="test-name">Test scenarios (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -248,28 +269,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Verify_scenario3')
-data.setCell(0, 2, 'Day3')
-data.setCell(0, 3, 7477);
+data.setCell(0, 1, 'Verify_scenario5')
+data.setCell(0, 2, 'Day5')
+data.setCell(0, 3, 18874);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verify_scenario4')
-data.setCell(1, 2, 'Day4')
-data.setCell(1, 3, 7115);
+data.setCell(1, 1, 'Verify_scenario3')
+data.setCell(1, 2, 'Day3')
+data.setCell(1, 3, 13290);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Verify_scenario2')
-data.setCell(2, 2, 'Day2')
-data.setCell(2, 3, 6048);
+data.setCell(2, 1, 'Verify_scenario4')
+data.setCell(2, 2, 'Day4')
+data.setCell(2, 3, 10729);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Verify_sorting')
-data.setCell(3, 2, 'Day1')
-data.setCell(3, 3, 4740);
+data.setCell(3, 1, 'Verify_scenario2')
+data.setCell(3, 2, 'Day2')
+data.setCell(3, 3, 8012);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Verify_sorting')
+data.setCell(4, 2, 'Day1')
+data.setCell(4, 3, 6328);
 window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
               <div id="times-div-Test_Suite">
               </div> <!-- times-div-Test_Suite -->
             </div> <!-- times-div -->
@@ -280,31 +305,6 @@ return data;
             <span class="header-content">Reporter output for Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Verify_scenario2</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Open Base URL</span>
-                <span class="reporter-method-output">click on Mobile Menu</span>
-                <span class="reporter-method-output">Get cost of sony Xperia mobile from the list of all mobiles</span>
-                <span class="reporter-method-output">Click on mobile Xperia mobile</span>
-                <span class="reporter-method-output">Get cost of sony Xperia mobile from detail page</span>
-                <span class="reporter-method-output">Compare the 2 cost values</span>
-                <span class="reporter-method-output">Equal values</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Verify_sorting</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Open Base URL</span>
-                <span class="reporter-method-output">Compare Titles</span>
-                <span class="reporter-method-output">click on Mobile Menu</span>
-                <span class="reporter-method-output">Compare Titles</span>
-                <span class="reporter-method-output">select type of Sort by Name</span>
-                <span class="reporter-method-output">Taking Screenshot</span>
-                <span class="reporter-method-output"><img src='screenshots\20240807_003558.png' alt='screenshot' style="width:500px;height:500px;" /></span>
-                <span class="reporter-method-output">check if the items are sorted by name or not</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">Verify_scenario4</span>
               <div class="reporter-method-output-div">
@@ -334,6 +334,48 @@ return data;
                 <span class="reporter-method-output">message shown with correct message</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify_sorting</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Open Base URL</span>
+                <span class="reporter-method-output">Compare Titles</span>
+                <span class="reporter-method-output">click on Mobile Menu</span>
+                <span class="reporter-method-output">Compare Titles</span>
+                <span class="reporter-method-output">select type of Sort by Name</span>
+                <span class="reporter-method-output">Taking Screenshot</span>
+                <span class="reporter-method-output"><img src='screenshots\20240808_195359.png' alt='screenshot' style="width:500px;height:500px;" /></span>
+                <span class="reporter-method-output">check if the items are sorted by name or not</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify_scenario2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Open Base URL</span>
+                <span class="reporter-method-output">click on Mobile Menu</span>
+                <span class="reporter-method-output">Get cost of sony Xperia mobile from the list of all mobiles</span>
+                <span class="reporter-method-output">Click on mobile Xperia mobile</span>
+                <span class="reporter-method-output">Get cost of sony Xperia mobile from detail page</span>
+                <span class="reporter-method-output">Compare the 2 cost values</span>
+                <span class="reporter-method-output">Equal values</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify_scenario5</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Open Base URL</span>
+                <span class="reporter-method-output">Click on my account link</span>
+                <span class="reporter-method-output">switching to new window</span>
+                <span class="reporter-method-output">Click Create an Account link</span>
+                <span class="reporter-method-output">fill New User information</span>
+                <span class="reporter-method-output">Click Register</span>
+                <span class="reporter-method-output">Verify Registration is done. Expected account registration done.</span>
+                <span class="reporter-method-output">Go to TV menu</span>
+                <span class="reporter-method-output">Add product in your wish list - use product - LG LCD</span>
+                <span class="reporter-method-output">Click SHARE WISHLIST</span>
+                <span class="reporter-method-output">In next page enter Email and a message and click SHARE WISHLIST</span>
+                <span class="reporter-method-output">Check wishlist is shared. Expected wishlist shared successfully.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Test_Suite" class="panel">
@@ -359,77 +401,98 @@ return data;
               <div class="chronological-class-name">Day2</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">2523 ms</span>
+                <span class="method-start">2157 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day3</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">4066 ms</span>
+                <span class="method-start">3466 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day4</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">5657 ms</span>
+                <span class="method-start">4800 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Day5</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">6163 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Verify_sorting</span>
-                <span class="method-start">7263 ms</span>
+                <span class="method-start">7530 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Verify_scenario2</span>
-                <span class="method-start">12007 ms</span>
+                <span class="method-start">13858 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day3</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Verify_scenario3</span>
-                <span class="method-start">18056 ms</span>
+                <span class="method-start">21871 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day4</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Verify_scenario4</span>
-                <span class="method-start">25534 ms</span>
+                <span class="method-start">35162 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Day5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_scenario5</span>
+                <span class="method-start">45891 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day1</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">Finish</span>
-                <span class="method-start">32650 ms</span>
+                <span class="method-start">64766 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day2</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">Finish</span>
-                <span class="method-start">34288 ms</span>
+                <span class="method-start">65792 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day3</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">Finish</span>
-                <span class="method-start">35070 ms</span>
+                <span class="method-start">65851 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Day4</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">Finish</span>
-                <span class="method-start">35134 ms</span>
+                <span class="method-start">67477 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Day5</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Finish</span>
+                <span class="method-start">69084 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

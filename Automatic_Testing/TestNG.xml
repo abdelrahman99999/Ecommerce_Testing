@@ -7,6 +7,7 @@
             <class name="Day2"/>
             <class name="Day3"/>
             <class name="Day4"/>
+            <class name="Day5"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
